@@ -61,11 +61,8 @@ class TriviaTestCase(unittest.TestCase):
         """Executed after reach test"""
         pass
 
-    """
-    TODO
-    Write at least one test for each test for successful operation and for expected errors.
-    """
-
+   
+# --- Test Cases for each Endpoints ---
 
     def test_delete_question(self):
         res = self.client().delete('/questions/10')
