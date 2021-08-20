@@ -1,10 +1,15 @@
 # Trivia App
+### Stack: Python / FLask / PostgreSQL / React
 
-1) Display questions - both all questions and by category. Questions should show the question, category and difficulty rating by default and can show/hide the answer. 
-2) Delete questions.
-3) Add questions and require that they include question and answer text.
-4) Search for questions based on a text query string.
-5) Play the quiz game, randomising either all questions or within a specific category. 
+Hello and welcome to my Trivia App. This application was created for a project whilst completing a Udacity Full Stack Web Development Nano Degree.
+
+This app is designed to play like a virtual pub quiz, where you can choose specific categories, or alternatively let the random generator choose for you. There is also the option to play the quiz, where you will be asked 10 questions (based on the categories you choose) and then at the end you will receive a final mark based on your performance.
+
+## Endpoints
+1) Display questions - Using GET requests we can retrieve questions stored within our postgres database. This can either be done by searching for all, searching for a specific ID, or alternatively if you know a partial string of a question, you can start typing it into the search field and the question will show.
+2) Delete questions - Using the DELETE method, Allows the user to delete questions they do not believe to be suitable.
+3) Add questions - Using POST requests we can add new questions to the quiz, with required fields in place that require both the question and answer text are present.
+5) 
 
 
 ## Getting Setup
