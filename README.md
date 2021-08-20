@@ -9,7 +9,6 @@ This app is designed to play like a virtual pub quiz, where you can choose speci
 1) Display questions - Using GET requests we can retrieve questions stored within our postgres database. This can either be done by searching for all, searching for a specific ID, or alternatively if you know a partial string of a question, you can start typing it into the search field and the question will show.
 2) Delete questions - Using the DELETE method, Allows the user to delete questions they do not believe to be suitable.
 3) Add questions - Using POST requests we can add new questions to the quiz, with required fields in place that require both the question and answer text are present.
-5) 
 
 
 ## Getting Setup
