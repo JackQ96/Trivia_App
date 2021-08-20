@@ -1,5 +1,5 @@
 # Trivia App
-### Stack: Python / FLask / PostgreSQL / React
+### Stack: Python / FLask / PostgreSQL / React / CSS
 
 Hello and welcome to my Trivia App. This application was created for a project whilst completing a Udacity Full Stack Web Development Nano Degree.
 
